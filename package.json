@@ -19,18 +19,15 @@
     "eject": "react-scripts eject",
     "electron-dev": "concurrently \"SET BROWSER=none&&npm start\" \"wait-on http://localhost:3000 && electron .\"",
     "pack": "electron-builder --dir",
-    "dist": "electron-builder"
+    "dist": "react-scripts build && electron-builder"
   },
   "build": {
     "appId": "com.example.electron-test",
-    "files": [
-      "build/**/*",
-      "node_modules/**/*"
-    ],
     "directories":{
       "buildResources": "assets"
     }
   },
+  "homepage": "./",
   "eslintConfig": {
     "extends": "react-app"
   },
