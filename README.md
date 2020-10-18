@@ -2,6 +2,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Instalation steps
 
-* clone this repository
-* cd into the new folder created
-* run npm install
+* clone this repository.
+* cd into the new folder created.
+* run npm install.
